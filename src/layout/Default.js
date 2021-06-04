@@ -6,7 +6,7 @@ export const Default = ({children}) => {
 	return (
 		
 	<div className="default-layout">
-			<header className="header">
+			<header className="header mb-2">
 				<Header/>
 			</header>
 

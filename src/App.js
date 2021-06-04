@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import { Default } from './layout/Default';
+// import { Dashboard } from './page/Dashboard/dashboard';
+import { AddTicket } from './page/new-ticket/AddTicket';
 // import { Entry } from './page/entry/Entry.page';
 
 
@@ -9,7 +11,8 @@ function App() {
     <div className="App">
       {/* <Entry/>   */}
      <Default>
-       Dashboard
+     {/* <Dashboard/> */}
+     <AddTicket/>
      </Default> 
     </div>
   );
